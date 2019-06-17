@@ -4,7 +4,6 @@
   "main": "./src/index.js",
   "scripts": {
     "start": "node .",
-    "build": "webpack --progress",
     "test": "mocha --colors --timeout 60000 test/*.js"
   },
   "keywords": [],
