@@ -18,7 +18,7 @@ router.get('/:id', async(req, res) => {
         if (err)
             return res.status(400).send({ error: 'id não encontrado'} );
 
-        res.send( user);
+        res.status(200).send( user);
      });
 });
 
