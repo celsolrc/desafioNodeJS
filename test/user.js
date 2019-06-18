@@ -1,7 +1,7 @@
 //Require the dev-dependencies
 let chai = require('chai');
 let chaiHttp = require('chai-http');
-let config = require('../config/tests.json');
+let config = require('../config/appconfig.json');
 let should = chai.should();
 let expect = chai.expect;
 let Chance = require('chance');
